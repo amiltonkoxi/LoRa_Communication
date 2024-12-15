@@ -69,15 +69,12 @@ The **receiver** captures the transmitted data and calculates:
 
 ### 3.2 Formulas
 
-- **RSSI Calculation**:  
-$$ 
-\text{RSSI (dBm)} = -(256 - \text{RSSI})
-$$
+**RSSI Calculation**:  
+RSSI (dBm) = -(256 - RSSI)
 
-- **SNR Calculation**:  
-$$
-\text{SNR (dB)} = P_{\text{signal}} (\text{dBm}) - P_{\text{noise}} (\text{dBm})
-$$
+**SNR Calculation**:  
+SNR (dB) = P_signal (dBm) - P_noise (dBm)
+
 
 
 ### **3.3 Receiver Setup Image**
@@ -85,7 +82,7 @@ $$
 
 ### **3.4 Receiver Output**
 **Display on LCD**:  
-![Receiver LCD Display](IMG_3149.JPG)
+![Receiver LCD Display](output.png)
 
 **Serial Monitor Output**:  
 ![Receiver Terminal](image_2024-12-15_14-23-34.png)
