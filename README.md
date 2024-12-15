@@ -20,7 +20,7 @@ This project implements long-range point-to-point communication using **LoRa E22
 | D18           | AUX           |
 
 **Wiring Diagram**:  
-![ESP32 and LoRa Wiring](IMG_2955.JPG)
+![ESP32 and LoRa Wiring](setup.png)
 
 ---
 
@@ -67,16 +67,18 @@ The **receiver** captures the transmitted data and calculates:
 - **RSSI**: Received Signal Strength Indicator.
 - **SNR**: Signal-to-Noise Ratio.
 
-### **3.2 Formulas**
-- **RSSI Calculation**:
-   \[
-   \text{RSSI (dBm)} = -(256 - \text{RSSI})
-   \]
+### 3.2 Formulas
 
-- **SNR Calculation**:
-   \[
-   \text{SNR (dB)} = P_{\text{signal}} (\text{dBm}) - P_{\text{noise}} (\text{dBm})
-   \]
+- **RSSI Calculation**:  
+$$ 
+\text{RSSI (dBm)} = -(256 - \text{RSSI})
+$$
+
+- **SNR Calculation**:  
+$$
+\text{SNR (dB)} = P_{\text{signal}} (\text{dBm}) - P_{\text{noise}} (\text{dBm})
+$$
+
 
 ### **3.3 Receiver Setup Image**
 ![Receiver Setup](IMG_3149.JPG)
