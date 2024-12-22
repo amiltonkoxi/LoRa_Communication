@@ -1,4 +1,7 @@
-![LoRa Communication](images/IMG_3149.JPG)
+## Hardware Setup
+Below is the physical setup of the LoRa Communication project, featuring the ESP32 and LoRa E220 module:
+
+![Hardware Setup](IMG_3149.JPG)
 
 
 # **LoRa Communication with ESP32**
