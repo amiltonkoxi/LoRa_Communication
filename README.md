@@ -92,13 +92,39 @@ SNR (dB) = P_signal (dBm) - P_noise (dBm)
 ## **4. Test Results**
 
 ### **4.1 Test Locations**
-Experiments were performed under **Line-of-Sight (LOS)** and **Non-Line-of-Sight (NLOS)** conditions at various distances:
+Experiments were conducted under **Line-of-Sight (LOS)** and **Non-Line-of-Sight (NLOS)** conditions, evaluating signal strength (RSSI), signal-to-noise ratio (SNR), and packet loss at various distances.
 
 1. **LOS and NLOS**:
    ![200m Test](image_2024-12-15_14-53-45.png)
 
-2. **200(NLOS),500,935 meters**:
+2. **200 (NLOS), 500, 935 meters**:
    ![935m Test](image_2024-12-15_15-02-31.png)
+
+---
+
+### **4.2 Analysis of Results**
+
+The following figures provide detailed insights into the experimental results under various conditions.
+
+1. **RSSI Comparison Between LOS and NLOS**:  
+   This figure compares RSSI values for LOS and NLOS conditions at the same distances. LOS conditions consistently exhibit stronger signals compared to NLOS, demonstrating the importance of maintaining line-of-sight for optimal communication.  
+   ![Figure 1: RSSI Comparison](Figure_1.webp)
+
+2. **RSSI vs Distance (NLOS Only)**:  
+   This figure shows the decrease in RSSI (signal strength) as the distance increases in NLOS conditions. The results highlight the impact of obstacles and distance on signal attenuation.  
+   ![Figure 2: RSSI (NLOS)](Figure_2.webp)
+
+3. **SNR vs Distance (NLOS Only)**:  
+   The signal-to-noise ratio (SNR) decreases as the distance increases in NLOS conditions. This decline indicates greater noise interference and weaker signal strength at longer distances.  
+   ![Figure 3: SNR](Figure_3.webp)
+
+4. **Percentage of Packets Received vs Distance (LOS and NLOS)**:  
+   This graph compares the percentage of packets successfully received at different distances for both LOS and NLOS conditions. LOS exhibits a higher percentage of received packets, while NLOS shows increasing packet loss as the distance grows.  
+   ![Figure 4: Packet Reception Percentage](Figure_4.webp)
+
+5. **Path Loss vs Distance (NLOS Only)**:  
+   This figure illustrates how path loss increases with distance in NLOS conditions. The results show significant signal attenuation due to obstacles, with higher path loss at longer distances.  
+   ![Figure 5: Path Loss](Figure_5.webp)
 
 
 ---
