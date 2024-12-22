@@ -2,11 +2,6 @@
 
 This project implements long-range point-to-point communication using **LoRa E220-400T22D** modules with **ESP32** microcontrollers. The project includes both a transmitter and a receiver for sending and receiving sensor data, while calculating **RSSI** and **SNR**.
 
-## LoRa Communication Example
-
-Below is a diagram showing the communication setup using LoRa for IoT applications:
-
-![LoRa IoT Example](lora-iot-example.webp)
 ---
 
 ## **1. LoRa Configuration**
