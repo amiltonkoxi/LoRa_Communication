@@ -1,13 +1,12 @@
-## Hardware Setup
-Below is the physical setup of the LoRa Communication project, featuring the ESP32 and LoRa E220 module:
-
-![Hardware Setup](IMG_3149.JPG)
-
-
 # **LoRa Communication with ESP32**
 
 This project implements long-range point-to-point communication using **LoRa E220-400T22D** modules with **ESP32** microcontrollers. The project includes both a transmitter and a receiver for sending and receiving sensor data, while calculating **RSSI** and **SNR**.
 
+## LoRa Communication Example
+
+Below is a diagram showing the communication setup using LoRa for IoT applications:
+
+![LoRa IoT Example](lora-iot-example.webp)
 ---
 
 ## **1. LoRa Configuration**
